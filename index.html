@@ -14,12 +14,12 @@
     <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
     <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/"/>
     <!-- titre -->
-    <title>Opensphère - cartographie relationnelle</title>
-    <meta property="og:title" content="Opensphère - cartographie relationnelle"/>
+    <title>DHsphère - cartographie de compétences</title>
+    <meta property="og:title" content="DHsphère - cartographie de compétences"/>
     <meta property="og:site_name" content="Opensphère"/>
-    <meta name="twitter:title" content="Opensphère - cartographie relationnelle"/>
-    <meta itemprop="name" content="Opensphère - cartographie relationnelle"/>
-    <meta name="DC.Title" content="Opensphère - cartographie relationnelle"/>
+    <meta name="twitter:title" content="DHsphère - cartographie de compétences"/>
+    <meta itemprop="name" content="DHsphère - cartographie de compétences"/>
+    <meta name="DC.Title" content="DHsphère - cartographie de compétences"/>
     <!-- adresse en ligne effective -->
     <link rel="canonical" href="  "/>
     <meta property="og:url" content="  "/>
@@ -27,11 +27,11 @@
     <meta name="DC.identifier" content="  "/>
     <meta name="DC.source" content="  "/>
     <!-- description (150 caractères max) -->
-    <meta name="description" content="L’Opensphère est un logiciel de cartographie relationnelle développé par l'équipe HyperOtlet."/>
-    <meta property="og:description" content="L’Opensphère est un logiciel de cartographie relationnelle développé par l'équipe HyperOtlet."/>
-    <meta name="twitter:description" content="L’Opensphère est un logiciel de cartographie relationnelle développé par l'équipe HyperOtlet."/>
-    <meta itemprop="description" content="L’Opensphère est un logiciel de cartographie relationnelle développé par l'équipe HyperOtlet."/>
-    <meta name="DC.description" content="L’Opensphère est un logiciel de cartographie relationnelle développé par l'équipe HyperOtlet."/>
+    <meta name="description" content="DESCRIPTION"/>
+    <meta property="og:description" content="DESCRIPTION"/>
+    <meta name="twitter:description" content="DESCRIPTION"/>
+    <meta itemprop="description" content="DESCRIPTION"/>
+    <meta name="DC.description" content="DESCRIPTION"/>
     <!-- liste des auteurs -->
     <meta name="author" content="  "/>
     <meta property="article:author" content="  "/>
@@ -41,8 +41,6 @@
     <!-- mots-clés -->
     <meta property="article:tag" content="cartographie relationnelle"/>
     <meta itemprop="keywords" content="cartographie relationnelle"/>
-    <meta property="article:tag" content="HyperOtlet"/>
-    <meta itemprop="keywords" content="HyperOtlet"/>
     <meta property="article:tag" content="documentation"/>
     <meta itemprop="keywords" content="documentation"/>
     <meta property="article:tag" content="cartographie relationnelle"/>
@@ -78,7 +76,7 @@
         "keywords": "hypertexte, documentation, cartographie relationnelle",
         "datePublished": "2020-02",
         "dateModified": "2020-07",
-        "description": "L’Opensphère est un logiciel de cartographie relationnelle développé par l'équipe HyperOtlet.",
+        "description": "DESCRIPTION",
         "identifier": "http://hyperotlet.huma-num.fr/",
         "license": "CC BY HyperOtlet",
         "creator": {
@@ -110,7 +108,7 @@
     <link rel="shortcut icon" href="./assets/favicon/favicon.ico"/>
     <meta name="msapplication-TileColor" content="#2b5797"/>
     <meta name="msapplication-config" content="./assets/favicon/browserconfig.xml"/>
-    <meta name="theme-color" content="#ffffff"/>
+    <meta name="theme-color" content="id=fffff"/>
     
     <!-- LIBRAIRIES CSS -->
     <link rel="stylesheet" href="./libs/bootstrap-grid.min.css"/>
@@ -128,7 +126,7 @@
 
         <div class="entete-col">
             <div class="identite" onclick="movement.goTo('reseau');">
-                <h1 class="title-site mono"><span>Open</span>sphère</h1>
+                <h1 class="title-site mono"><span>DH</span>sphère</h1>
             </div>
 
             <div class="search-box">
@@ -162,21 +160,13 @@
             <section class="filter-bar || d-none d-xl-flex">
 
                 <div class="entete-row">
-                    <button class="btn-group" data-type="group" data-meta="otlet" data-lang-fr="Otlet" data-lang-en="Otlet">Otlet</button>
-                </div>
-
-                <div class="entete-row">
-                    <button class="btn-group" data-type="group" data-meta="famille" data-lang-fr="famille" data-lang-en="family">famille</button>
-                    <button class="btn-group" data-type="group" data-meta="collegue" data-lang-fr="collègues" data-lang-en="coworkers">collègues</button>
-                    <button class="btn-group" data-type="group" data-meta="collaborateur" data-lang-fr="collaborateurs" data-lang-en="colleagues">collaborateurs</button>
-                    <button class="btn-group" data-type="group" data-meta="opposant" data-lang-fr="opposants" data-lang-en="rivals">opposants</button>
-                    <button class="btn-group" data-type="group" data-meta="non-catégorisé" data-lang-fr="non-classé" data-lang-en="uncategorized">non-classé</button>
-                </div>
-
-                <div class="entete-row">
-                    <button class="btn-group" data-type="group" data-meta="œuvre" data-lang-fr="œuvres" data-lang-en="works">œuvres</button>
-                    <button class="btn-group" data-type="group" data-meta="évènement" data-lang-fr="évènement" data-lang-en="events">évènements</button>
-                    <button class="btn-group" data-type="group" data-meta="institution" data-lang-fr="institutions" data-lang-en="institutions">institutions</button>
+                    <button class="btn-group" data-type="filtre" data-meta="Recherche">Recherche</button>
+                    <button class="btn-group" data-type="filtre" data-meta="Culture">Culture</button>
+                    <button class="btn-group" data-type="filtre" data-meta="Service">Service</button>
+                    <button class="btn-group" data-type="filtre" data-meta="Data">Data</button>
+                    <button class="btn-group" data-type="filtre" data-meta="Méthodes">Méthodes</button>
+                    <button class="btn-group" data-type="filtre" data-meta="Corpus">Corpus</button>
+                    <button class="btn-group" data-type="filtre" data-meta="Editorialisation">Editorialisation</button>
                 </div>
         
             </section>
@@ -266,32 +256,16 @@
             <div id="fiche-content">
 
                 <header id="fiche-head">
-                    <img id="fiche-meta-img" src="" alt="">
-
                     <div>
                         <span id="fiche-title" class="label" data-meta="label"></span>
-                        <div class="fiche-dates">
-                            <span data-meta="annee_naissance"></span>
-                            <span data-meta="annee_mort"></span>
-                        </div>
-                        <div data-meta="title"></div>
                         <div class="fiche-btns-box">
-                            <a id="fiche-wiki-link" title="Page wikipédia liée" target="_blank" href=""></a>
+                            <a id="fiche-link" title="Page web liée" target="_blank" href=""></a>
                             <button id="fiche-permalien" data-lang-fr="Permalien" data-lang-en="Permalink">Permalien</button>
                         </div>
                     </div>
                 </header>
 
                 <main>
-                    <div class="fiche-row">
-                        <span data-lang-fr="pays" data-lang-en="country">pays</span>
-                        <span data-meta="pays"></span>
-                    </div>
-    
-                    <div class="fiche-row">
-                        <span data-lang-fr="domaine" data-lang-en="field">domaine</span>
-                        <span data-meta="domaine"></span>
-                    </div>
                     
                     <div class="fiche-description" data-meta="description"></div>
     

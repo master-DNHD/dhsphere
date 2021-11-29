@@ -83,33 +83,13 @@ Promise.all([
             .filter(entite => entite.id)
             .map(function(entite) {
                 return {
-                    id: entite.id,
+                    id: Number(entite.id),
                     label: entite.label,
-                    title: entite.titre,
-                    group: entite.relation_otlet,
-                    image: './assets/images/' + entite.photo,
-                    genre: entite.genre,
-                    annee_naissance: entite.annee_naissance,
-                    annee_mort: ((!entite.annee_mort) ? undefined : ' - ' + entite.annee_mort),
-                    pays: entite.pays,
-                    domaine: entite.domaine,
+                    filtre: entite.filtre,
                     description: entite.description,
-                    lien_wikipedia: entite.lien_wikipedia,
-                    // translated metas
-                    Fr: {
-                        title: entite.titre,
-                        pays: entite.pays,
-                        domaine: entite.domaine,
-                        description: entite.description
-                    },
-                    En: {
-                        title: entite.titre_en,
-                        pays: entite.pays_en,
-                        domaine: entite.domaine_en,
-                        description: entite.description_en
-                    },
+                    url: entite.URL,
 
-                    sortName: entite.nom || entite.label,
+                    sortName: entite.label,
                     hidden: false
                 };
             });
@@ -127,14 +107,7 @@ Promise.all([
                     id: lien.id,
                     source: lien.from,
                     target: lien.to,
-                    title: lien.label,
-
-                    Fr: {
-                        title: lien.label
-                    },
-                    En: {
-                        title: lien.label_en
-                    },
+                    title: lien.label
                 }
             });
 
@@ -163,8 +136,8 @@ Promise.all([
 graph.params = {
     nodeSize: 12,
     nodeStrokeSize: 2,
-    force: 800,
-    distanceMax: 400,
+    force: 200,
+    distanceMax: 200,
     highlightColor: 'red'
 };
 
@@ -292,7 +265,7 @@ graph.init = function() {
 
     graph.elts.circles = graph.elts.nodes.append("circle")
         .attr("r", (d) => graph.params.nodeSize)
-        .style("stroke", (d) => chooseColor(d.group))
+        .style("stroke", (d) => chooseColor(d.filtre))
         .attr("stroke-width", graph.params.nodeStrokeSize)
         .on('mouseenter', hoverNode)
         .on('mouseout', hoverNodeRemove);
@@ -516,32 +489,24 @@ function unlightNodeNetwork() {
  */
 
 function chooseColor(name) {
-    let color;
-
     switch (name) {
-        case 'collegue':
-            color = '154, 60, 154'; break;
-        case 'collaborateur':
-            color = '97, 172, 97'; break;
-        case 'opposant':
-            color = '250, 128, 114'; break;
-        case 'famille':
-            color = '102, 179, 222'; break;
-        case 'otlet':
-            color = '244, 164, 96'; break;
-        case 'non-catégorisé':
-            color = '128,128,128'; break;
-        case 'institution':
-            color = '128,128,128'; break;
-        case 'œuvre':
-            color = '128,128,128'; break;
-        case 'évènement':
-            color = '128,128,128'; break;
+        case 'Recherche':
+            return '#a6cee3';
+        case 'Culture':
+            return '#1f78b4';
+        case 'Service':
+            return '#b2df8a';
+        case 'Data':
+            return '#33a02c';
+        case 'Méthodes':
+            return '#fb9a99';
+        case 'Corpus':
+            return '#e31a1c';
+        case "Editorialisation":
+            return '#fdbf6f';
         default:
-            color = '169, 169, 169'; break;
+            return '#000000';
     }
-    
-    return ['rgb(', color, ')'].join('');
 }
 
 /**
@@ -574,15 +539,6 @@ function findConnectedNodes(nodeId) {
                 return link.source;
             }
         })
-        .map(function(link) {
-            return {
-                id: link.id,
-                label: link.label,
-                relation: link.group,
-                title: link.title,
-                hidden: link.hidden
-            };
-        });
 }
 
 /**
@@ -920,7 +876,7 @@ var fiche = {
     isOpen: false,
     fields: {
         title: document.querySelector('#fiche-title'),
-        wikiLink: document.querySelector('#fiche-wiki-link'),
+        link: document.querySelector('#fiche-link'),
         img: document.querySelector('#fiche-meta-img'),
         connexion: document.querySelector('#fiche-connexion'),
         permalien: document.querySelector('#fiche-permalien')
@@ -982,15 +938,15 @@ var fiche = {
      * @param {string} wikiLink - URL adress
      * @memberof Filter
      */
-    setWikiLink: function(wikiLink) {
-        if (!this.fields.wikiLink) { return ; }
+    setWikiLink: function(link) {
+        if (!this.fields.link) { return ; }
 
-        if (!wikiLink) {
-            this.fields.wikiLink.style.display = 'none';
-            this.fields.wikiLink.setAttribute('href', '')
+        if (!link) {
+            this.fields.link.style.display = 'none';
+            this.fields.link.setAttribute('href', '')
         } else {
-            this.fields.wikiLink.style.display = 'flex';
-            this.fields.wikiLink.setAttribute('href', wikiLink)
+            this.fields.link.style.display = 'flex';
+            this.fields.link.setAttribute('href', link)
         }
     },
     /**
@@ -1050,7 +1006,7 @@ var fiche = {
             this.fields.connexion.appendChild(listElt);
 
             var puceColored = document.createElement('span');
-            puceColored.style.backgroundColor = chooseColor(connectedNode.relation);
+            puceColored.style.backgroundColor = chooseColor(connectedNode.filtre);
             listElt.prepend(puceColored);
 
             listElt.addEventListener('click', () => {
@@ -1077,7 +1033,7 @@ var fiche = {
         });
 
         this.setImage(nodeMetas.image, nodeMetas.label);
-        this.setWikiLink(nodeMetas.lien_wikipedia);
+        this.setWikiLink(nodeMetas.url);
         this.setPermaLink(graph.selectedNodeId);
 
         this.setConnexion(nodeConnectedList);
