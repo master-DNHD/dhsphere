@@ -107,7 +107,7 @@ Promise.all([
                     id: lien.id,
                     source: lien.from,
                     target: lien.to,
-                    title: lien.label
+                    title: lien.description
                 }
             });
 
@@ -134,7 +134,7 @@ Promise.all([
  */
 
 graph.params = {
-    nodeSize: 12,
+    nodeSize: 3,
     nodeStrokeSize: 2,
     force: 200,
     distanceMax: 200,
@@ -327,7 +327,7 @@ graph.init = function() {
                 label = '';
             }
         })
-        .attr('font-size', 10)
+        .attr('font-size', 3)
         .attr('x', 0)
         .attr('y', (d) => graph.params.nodeSize)
         .attr('dominant-baseline', 'middle')
@@ -490,20 +490,16 @@ function unlightNodeNetwork() {
 
 function chooseColor(name) {
     switch (name) {
-        case 'Recherche':
-            return '#a6cee3';
-        case 'Culture':
-            return '#1f78b4';
-        case 'Service':
-            return '#b2df8a';
-        case 'Data':
-            return '#33a02c';
-        case 'Méthodes':
-            return '#fb9a99';
-        case 'Corpus':
-            return '#e31a1c';
-        case "Editorialisation":
-            return '#fdbf6f';
+        case 'Famille compétence':
+            return '#1b9e77';
+        case 'Métacompétences':
+            return '#d95f02';
+        case 'Enseignement':
+            return '#7570b3';
+        case 'Universités':
+            return '#e7298a';
+        case 'Formations':
+            return '#66a61e';
         default:
             return '#000000';
     }
@@ -529,16 +525,21 @@ function getNodeMetas(nodeId) {
  * @returns {array} objects array contains metadatas
  */
 
-function findConnectedNodes(nodeId) {
+ function findConnectedNodes(nodeId) {
     return graph.links
         .filter(link => link.source.id === nodeId || link.target.id === nodeId)
         .map(function(link) {
             if (link.source.id === nodeId) {
+                link.target.link_title = link.title;
                 return link.target;
             } else {
+                link.source.link_title = link.title;
                 return link.source;
             }
         })
+        .map(function(link) {
+            return link;
+        });
 }
 
 /**
@@ -561,7 +562,7 @@ function switchNode(nodeId, mustZoom = true) {
     graph.selectedNodeId = Number(nodeId);
 
     // rename webpage
-    document.title = nodeMetas.label + ' - Otetosphère';
+    document.title = nodeMetas.label + ' - DHsphère';
 
     if (mustZoom) { zoomToNode(nodeId); }
 
@@ -1002,7 +1003,8 @@ var fiche = {
 
             var listElt = document.createElement('li');
             listElt.textContent = connectedNode.label;
-            listElt.setAttribute('title', connectedNode.title);
+            console.log(connectedNode);
+            listElt.setAttribute('title', connectedNode.link_title);
             this.fields.connexion.appendChild(listElt);
 
             var puceColored = document.createElement('span');
@@ -1023,6 +1025,8 @@ var fiche = {
         const nodeMetas = getNodeMetas(graph.selectedNodeId)
         if (nodeMetas === false)  { return ; }
         const nodeConnectedList = findConnectedNodes(graph.selectedNodeId);
+
+        console.log(nodeConnectedList);
 
         // show description bar fields
         this.content.classList.add('visible');
