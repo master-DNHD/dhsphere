@@ -85,6 +85,7 @@ Promise.all([
                 return {
                     id: Number(entite.id),
                     label: entite.label,
+                    image: `./assets/images/${entite.filtre}.png`,
                     filtre: entite.filtre,
                     description: entite.description,
                     url: entite.URL,
@@ -166,7 +167,7 @@ graph.svg
  */
 graph.init = function() {
 
-    graph.params.imgSize = graph.params.nodeSize + 10;
+    graph.params.imgSize = graph.params.nodeSize + 3;
 
     d3.select(window).on("resize", function () {
         graph.width =+ graph.svg.node().getBoundingClientRect().width;
@@ -266,7 +267,7 @@ graph.init = function() {
     graph.elts.circles = graph.elts.nodes.append("circle")
         .attr("r", (d) => graph.params.nodeSize)
         .style("stroke", (d) => chooseColor(d.filtre))
-        .attr("stroke-width", graph.params.nodeStrokeSize)
+        .style("fill", (d) => chooseColor(d.filtre))
         .on('mouseenter', hoverNode)
         .on('mouseout', hoverNodeRemove);
 

@@ -786,12 +786,19 @@ button:focus {
   height: 100%;
 }
 
-line { stroke: gray; }
+line {
+  stroke: gray;
+  stroke-width: 0.5;
+}
+
+circle {
+  stroke-width: 0;
+}
 
 g.translucent circle { stroke-opacity: 0.2; fill: transparent; }
 g.translucent image { opacity: 0.2; }
 line.translucent { stroke-opacity: 0.2; }
-line.highlight { stroke-width: 3; }
+line.highlight { stroke-width: 1; }
 text {
   fill: white;
   font-family: 'Open Sans';
