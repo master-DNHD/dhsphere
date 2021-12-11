@@ -466,6 +466,7 @@ function highlightNodeNetwork(nodeId) {
         , node = ntw.node
         , links = ntw.links;
 
+    node.select('circle').style("stroke-width", 1);
     node.select('circle').style("stroke", graph.params.highlightColor);
     links.classed('highlight', true);
 }
@@ -479,6 +480,7 @@ function unlightNodeNetwork() {
         , node = ntw.node
         , links = ntw.links;
 
+    node.select('circle').style("stroke-width", 0);
     node.select('circle').style("stroke", (d) => chooseColor(d.group));
     links.classed('highlight', false);
 }
