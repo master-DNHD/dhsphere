@@ -196,13 +196,6 @@
       "URL" : null
     },
     {
-      "label" : "Document Analysis",
-      "id" : 12,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Gender and Globalization",
       "id" : 36,
       "filtre" : "Enseignement",
@@ -324,13 +317,6 @@
     {
       "label" : "LIS (Library and Information Studies) : Services in Culturally Diverse Society",
       "id" : 44,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Humanities Practicum",
-      "id" : 563,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -471,13 +457,6 @@
     {
       "label" : "Information Architecture: Web Design for Usability",
       "id" : 155,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Storytelling",
-      "id" : 316,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -728,13 +707,6 @@
       "URL" : null
     },
     {
-      "label" : "Geospatial Humanities",
-      "id" : 510,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Research Paper in Digital Humanities",
       "id" : 210,
       "filtre" : "Enseignement",
@@ -772,20 +744,6 @@
     {
       "label" : "Seminar:Ethics",
       "id" : 123,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "XML",
-      "id" : 97,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Computer Organisation and Program Execution",
-      "id" : 340,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -896,13 +854,6 @@
       "URL" : null
     },
     {
-      "label" : "Animation",
-      "id" : 324,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Literature in the Digital Age: Theories, Texts, Methods",
       "id" : 405,
       "filtre" : "Enseignement",
@@ -996,13 +947,6 @@
     {
       "label" : "Knowledge Management",
       "id" : 478,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "ISS Independent Study",
-      "id" : 558,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -1155,13 +1099,6 @@
       "URL" : null
     },
     {
-      "label" : "Who do we think we are? Using Archives and Special Collections",
-      "id" : 415,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Social, Legal and ethical issues in Computing",
       "id" : 184,
       "filtre" : "Enseignement",
@@ -1192,13 +1129,6 @@
     {
       "label" : "Bass Connections in Information Science and Culture: Independent Study Project",
       "id" : 235,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Resources in the Humanities",
-      "id" : 572,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -1281,13 +1211,6 @@
       "URL" : null
     },
     {
-      "label" : "Thesis",
-      "id" : 205,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Monsters and Otherness Studies",
       "id" : 417,
       "filtre" : "Enseignement",
@@ -1365,22 +1288,8 @@
       "URL" : null
     },
     {
-      "label" : "Creative Data Visualisation: Representing Data in Visual and Material Form",
-      "id" : 147,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Foundations of Creative Code",
       "id" : 71,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Music and Digital Media",
-      "id" : 326,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -1526,13 +1435,6 @@
       "URL" : null
     },
     {
-      "label" : "Digital Humanities Practicum",
-      "id" : 562,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Analogue Cultures",
       "id" : 539,
       "filtre" : "Enseignement",
@@ -1617,13 +1519,6 @@
       "URL" : null
     },
     {
-      "label" : "Digital Humanities Practicum",
-      "id" : 560,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Introduction to Augmented Reality and Virtual Reality",
       "id" : 320,
       "filtre" : "Enseignement",
@@ -1652,13 +1547,6 @@
       "URL" : null
     },
     {
-      "label" : "Thesis 2",
-      "id" : 436,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Games and Culture: Gateway to the Study of Games",
       "id" : 530,
       "filtre" : "Enseignement",
@@ -1668,13 +1556,6 @@
     {
       "label" : "Technology Project Management",
       "id" : 244,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Advanced courses in classical literature (Latin, Greek, Sanskirt, or other approved language)",
-      "id" : 370,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -1701,13 +1582,6 @@
       "URL" : null
     },
     {
-      "label" : "Digital Heritage: Theories, Methods and Challenges",
-      "id" : 233,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Visualization and Design: Fundamentals",
       "id" : 154,
       "filtre" : "Enseignement",
@@ -1717,13 +1591,6 @@
     {
       "label" : "3D Modeling and Animation",
       "id" : 319,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Social Science of the Internet",
-      "id" : 521,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -1785,13 +1652,6 @@
       "URL" : null
     },
     {
-      "label" : "Interdisciplinary Humanities Research: Methods, Theories and Skills",
-      "id" : 590,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Parchment to Pixel: World History Through Historical Maps and GIS",
       "id" : 505,
       "filtre" : "Enseignement",
@@ -1801,13 +1661,6 @@
     {
       "label" : "Web Technologies",
       "id" : 75,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Survey of Digital Humanities",
-      "id" : 585,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -1850,13 +1703,6 @@
     {
       "label" : "Network Technologies",
       "id" : 333,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Introduction to Digital Humanities",
-      "id" : 580,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -1932,13 +1778,6 @@
       "URL" : null
     },
     {
-      "label" : "Dissertation",
-      "id" : 188,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Research Seminar",
       "id" : 122,
       "filtre" : "Enseignement",
@@ -1981,13 +1820,6 @@
       "URL" : null
     },
     {
-      "label" : "Introduction to Digital Humanities",
-      "id" : 401,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Digital Skills for Research Postgraduates in the Humanities and Social Science",
       "id" : 425,
       "filtre" : "Enseignement",
@@ -1997,13 +1829,6 @@
     {
       "label" : "Research Essay",
       "id" : 438,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Tourism, Heritage and Globalization",
-      "id" : 224,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2025,13 +1850,6 @@
     {
       "label" : "Digital Publishing",
       "id" : 165,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Writing for the Research Process",
-      "id" : 441,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2060,13 +1878,6 @@
     {
       "label" : "Jesus’ Dangerous Ideas: How did Christian Ideas Overwhelm the Greco-Roman World?",
       "id" : 296,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Introduction to Digital Humanities",
-      "id" : 365,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2121,13 +1932,6 @@
       "URL" : null
     },
     {
-      "label" : "Dissertation",
-      "id" : 213,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Issues in the Technologies of Cultural Politics: Digital Humanities, Media & Social",
       "id" : 536,
       "filtre" : "Enseignement",
@@ -2137,13 +1941,6 @@
     {
       "label" : "Public Libraries",
       "id" : 64,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Humanities: Methods and Practices",
-      "id" : 596,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2261,13 +2058,6 @@
       "URL" : null
     },
     {
-      "label" : "Global Digital Humanities",
-      "id" : 573,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Archives and Records Management",
       "id" : 51,
       "filtre" : "Enseignement",
@@ -2298,13 +2088,6 @@
     {
       "label" : "Introduction to Digital Humanities",
       "id" : 364,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Foundations of Creative Code",
-      "id" : 70,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2436,13 +2219,6 @@
       "URL" : null
     },
     {
-      "label" : "Mapping and Modelling Space and Time",
-      "id" : 508,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Metadata & Access",
       "id" : 73,
       "filtre" : "Enseignement",
@@ -2513,13 +2289,6 @@
       "URL" : null
     },
     {
-      "label" : "Dictionaries and Dictionary-Making",
-      "id" : 54,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Art and Interaction in New Media",
       "id" : 104,
       "filtre" : "Enseignement",
@@ -2583,13 +2352,6 @@
       "URL" : null
     },
     {
-      "label" : "Digital Humanities: Methods and Practices",
-      "id" : 588,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Digital Humanities: Theories & Concepts I",
       "id" : 394,
       "filtre" : "Enseignement",
@@ -2606,13 +2368,6 @@
     {
       "label" : "Data Management for the Humanities (XML)",
       "id" : 69,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Humanities: Theory and Practice",
-      "id" : 587,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2641,20 +2396,6 @@
     {
       "label" : "Management for Digital Content Industries",
       "id" : 410,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Information Theory",
-      "id" : 335,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Humanities Practicum",
-      "id" : 593,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2758,13 +2499,6 @@
       "URL" : null
     },
     {
-      "label" : "Digital History, Digital Heritage",
-      "id" : 227,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Redefining Society",
       "id" : 523,
       "filtre" : "Enseignement",
@@ -2786,13 +2520,6 @@
       "URL" : null
     },
     {
-      "label" : "Thesis 1",
-      "id" : 435,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Greek Art and Archaeology",
       "id" : 281,
       "filtre" : "Enseignement",
@@ -2809,13 +2536,6 @@
     {
       "label" : "Issues in Digital Humanities",
       "id" : 383,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Gutenberg to Google: Histories of Information",
-      "id" : 470,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2891,13 +2611,6 @@
       "URL" : null
     },
     {
-      "label" : "Structured Programming",
-      "id" : 84,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Strategic Communication",
       "id" : 411,
       "filtre" : "Enseignement",
@@ -2919,29 +2632,8 @@
       "URL" : null
     },
     {
-      "label" : "Introduction to the Study of Language",
-      "id" : 492,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Dissertation",
-      "id" : 189,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Human Information Interaction",
       "id" : 461,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Australian National Internships Program Internship A (Graduate)",
-      "id" : 554,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -2961,20 +2653,6 @@
       "URL" : null
     },
     {
-      "label" : "Critical Issues in Heritage and Museum Studies",
-      "id" : 223,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Teaching Duties: TA",
-      "id" : 467,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Human Rights on Camera",
       "id" : 278,
       "filtre" : "Enseignement",
@@ -2984,13 +2662,6 @@
     {
       "label" : "Game Theory",
       "id" : 308,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Relational Databases",
-      "id" : 138,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3038,20 +2709,6 @@
       "URL" : null
     },
     {
-      "label" : "Structured Programming",
-      "id" : 99,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Approaches to History",
-      "id" : 263,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Performance and Technology: Composition Workshop",
       "id" : 243,
       "filtre" : "Enseignement",
@@ -3059,22 +2716,8 @@
       "URL" : null
     },
     {
-      "label" : "Traditional Australian Indigenous Cultures, Societies and Environment",
-      "id" : 261,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Metadata",
       "id" : 332,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Post-Colonial Literature",
-      "id" : 363,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3185,13 +2828,6 @@
       "URL" : null
     },
     {
-      "label" : "Logic",
-      "id" : 79,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "ISS Research Independent Study",
       "id" : 431,
       "filtre" : "Enseignement",
@@ -3250,13 +2886,6 @@
     {
       "label" : "Algorithms",
       "id" : 86,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Online Research Methods",
-      "id" : 452,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3360,13 +2989,6 @@
       "URL" : null
     },
     {
-      "label" : "Introduction to Digital Humanities",
-      "id" : 569,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Methods and Techniques in Geocomputation",
       "id" : 512,
       "filtre" : "Enseignement",
@@ -3395,13 +3017,6 @@
       "URL" : null
     },
     {
-      "label" : "The Reach of History: Presenting the past in the public domain",
-      "id" : 269,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Humanities Text Mining and Meaning",
       "id" : 567,
       "filtre" : "Enseignement",
@@ -3411,13 +3026,6 @@
     {
       "label" : "Introduction to Virtual Reality",
       "id" : 175,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Special Topics in Digital Humanities",
-      "id" : 594,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3474,13 +3082,6 @@
     {
       "label" : "Seminar: The Political Thought of Machiavelli",
       "id" : 380,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Electric Citizens: The Rise of the Modern Media in the United States, 1865-2000",
-      "id" : 268,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3563,13 +3164,6 @@
       "URL" : null
     },
     {
-      "label" : "Project and Dissertation",
-      "id" : 190,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Information System Design",
       "id" : 349,
       "filtre" : "Enseignement",
@@ -3621,27 +3215,6 @@
     {
       "label" : "Artificial Intelligence & Society",
       "id" : 357,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Introduction to Virtual Reality",
-      "id" : 323,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Meth of Geographical Research",
-      "id" : 517,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Web Development and Design",
-      "id" : 159,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3703,13 +3276,6 @@
       "URL" : null
     },
     {
-      "label" : "Algorithms",
-      "id" : 82,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Advanced Academic English",
       "id" : 418,
       "filtre" : "Enseignement",
@@ -3759,20 +3325,6 @@
       "URL" : null
     },
     {
-      "label" : "Introduction to Programming and Scripting",
-      "id" : 96,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Structured Programming",
-      "id" : 88,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Information Architecture",
       "id" : 472,
       "filtre" : "Enseignement",
@@ -3782,13 +3334,6 @@
     {
       "label" : "Advanced Data Visualization",
       "id" : 142,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Introduction to Geographical Information Science",
-      "id" : 511,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3822,22 +3367,8 @@
       "URL" : null
     },
     {
-      "label" : "Australian National Internships Program B",
-      "id" : 555,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Digital Storytelling",
       "id" : 314,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Networked Information Systems",
-      "id" : 81,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3857,22 +3388,8 @@
       "URL" : null
     },
     {
-      "label" : "An Introduction to Cultural and Environmental Heritage",
-      "id" : 221,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Language and Society",
       "id" : 493,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Humanities: Methods and Practices",
-      "id" : 589,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3899,13 +3416,6 @@
       "URL" : null
     },
     {
-      "label" : "Applied Machine Learning",
-      "id" : 356,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Health and Healing in Medieval and Early Modern Europe",
       "id" : 254,
       "filtre" : "Enseignement",
@@ -3915,27 +3425,6 @@
     {
       "label" : "Thesis or Capstone Project",
       "id" : 433,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Literature in the Digital Age: Theories, Texts, Methods",
-      "id" : 196,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Introductory Programming",
-      "id" : 87,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Front-End Web: Crafting Online Experience",
-      "id" : 169,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -3962,13 +3451,6 @@
       "URL" : null
     },
     {
-      "label" : "Statistics for Social Scientists",
-      "id" : 139,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Organization of Knowledge and Information",
       "id" : 58,
       "filtre" : "Enseignement",
@@ -3990,29 +3472,8 @@
       "URL" : null
     },
     {
-      "label" : "Digital Storytelling",
-      "id" : 317,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Digital Media",
       "id" : 110,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Video Art",
-      "id" : 322,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "World Heritage: conserving cultural heritage values",
-      "id" : 228,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -4032,22 +3493,8 @@
       "URL" : null
     },
     {
-      "label" : "Digital Humanities: Theories and Projects",
-      "id" : 595,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Textual Studies in a Digital Age: \"Doing Things with Novels\"",
       "id" : 186,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "The History of Archaeology: Discovering the Past",
-      "id" : 265,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -4083,20 +3530,6 @@
     {
       "label" : "Social Media, Marketing and Platforms",
       "id" : 245,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Biography and History",
-      "id" : 52,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Advanced Academic English",
-      "id" : 396,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -4151,22 +3584,8 @@
       "URL" : null
     },
     {
-      "label" : "Museums and Collections: Key Concepts and Practices",
-      "id" : 292,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
       "label" : "Readings in Commun Research 1",
       "id" : 437,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Making History",
-      "id" : 276,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -4181,27 +3600,6 @@
     {
       "label" : "Historical Research Project",
       "id" : 211,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Introduction",
-      "id" : 729,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Approaches to History",
-      "id" : 730,
-      "filtre" : "Enseignement",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Dictionaries and Dictionary-Making",
-      "id" : 736,
       "filtre" : "Enseignement",
       "description" : null,
       "URL" : null
@@ -4564,7 +3962,7 @@
       "URL" : "https://iitj.ac.in/dh/index.php?id=msc_programs"
     },
     {
-      "label" : "MA ... Specialization in Digital Humanities (Collaborative Master's), Carleton University",
+      "label" : "Collaborative MA in Digital Studies, Carleton University",
       "id" : 694,
       "filtre" : "Formations",
       "description" : "Au sein de l’université Carleton, Canada le Collaborative Master of Arts in Digital Studies se définit comme donnant aux étudiants l'occasion d'explorer la manière dont les technologies numériques modifient notre compréhension de l'art, du cinéma, de la musique, de la littérature et de la culture populaire, la manière dont ils développent de nouvelles formes de mémoire collective et la manière dont ils créent des communautés mondiales et un dialogue interculturel. Il propose une formation de treize enseignements sur 2 années. L’obtention du Master est complété par la réalisation d’un mémoire ainsi que d'un stage. [si pertinent : une ou deux phrases traduites de leur site qui explique plus en détail le but du Master]",
@@ -4604,167 +4002,6 @@
       "filtre" : "Formations",
       "description" : "Au sein de l’Université de Chicago, États-Unis, le Master of Arts in Digital Studies se définit comme “un tremplin vers des carrières qui requièrent un ensemble de compétences informatiques, rédactionnelles et de pensée critique”. Il propose une formation de dix enseignements sur un an. L’obtention du Master est complété par la réalisation d’un mémoire. Ce Master mène aux métiers de développeur, chargé de marketing digital, ou chargé de communication, ainsi qu'à des postes universitaires ou dans des institutions culturelles. \nCe Master est qualifié comme étant un diplôme \"STEM\" (Science, Technology, Engineering & Mathematics).",
       "URL" : "https://digitalstudies.uchicago.edu/overview-timeline"
-    },
-    {
-      "label" : "Digital Public Humanities Graduate Certificate",
-      "id" : 710,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MSc in Spatial eHumanities",
-      "id" : 718,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MA in Digital Humanities,",
-      "id" : 722,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MSc in Digital Humanities",
-      "id" : 725,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Humanities MA",
-      "id" : 717,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Postgraduate Certificate in Digital Humanities",
-      "id" : 714,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MPhil in Digital Humanities and Culture",
-      "id" : 721,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MA/MLIS in Digital Humanities",
-      "id" : 723,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Master of Digital Humanities and Public Culture at Australian National University (ANU)",
-      "id" : 712,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MA in Digital Art History/Computational Media",
-      "id" : 707,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Master of Science in Digital Humanities",
-      "id" : 709,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Post-Digital Humanities MA",
-      "id" : 715,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MA ... Specialization in Digital Humanities (Collaborative Master's)",
-      "id" : 708,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MA in Digital Tools for Premodern Studies",
-      "id" : 705,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MA in Digital Humanities",
-      "id" : 711,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "M.A. Digital Arts & Humanities,",
-      "id" : 724,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Master of Digital Humanities and Public Culture (advanced) at Australian National University (ANU)",
-      "id" : 713,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Digital Humanities, MA by Research",
-      "id" : 720,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Master of Arts in Digital Humanities",
-      "id" : 716,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Ad-Hoc MA in Digital Humanities",
-      "id" : 719,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "MA in Digital Studies",
-      "id" : 706,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "George Mason University",
-      "id" : 726,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
-    },
-    {
-      "label" : "Master of Digital Humanities at Western Sydney University",
-      "id" : 727,
-      "filtre" : "Formations",
-      "description" : null,
-      "URL" : null
     },
     {
       "label" : "Corpus",
@@ -4835,13 +4072,6 @@
       "filtre" : "Universités",
       "description" : null,
       "URL" : "https://digitalstudies.uchicago.edu/overview-timeline"
-    },
-    {
-      "label" : "University College London",
-      "id" : 662,
-      "filtre" : "Universités",
-      "description" : null,
-      "URL" : "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/digital-humanities-msc"
     },
     {
       "label" : "\nGeorge Mason University",
