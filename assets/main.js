@@ -1073,7 +1073,7 @@ var search = {
     input: document.querySelector('#search'),
     resultContent: document.querySelector('#search-result'),
     options: {
-        includeScore: true,
+        includeScore: false,
         keys: ['label']
     },
 
