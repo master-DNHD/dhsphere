@@ -609,10 +609,15 @@ var board = {
             .map(function(d) {
                 let card = new Card;
                 card.id = d.id;
+                card.filtre = d.filtre;
                 card.label = d.label;
                 card.labelFirstLetter = d.sortName.charAt(0);
                 card.title = (d.title || '');
                 card.img = d.image;
+
+                if (card.labelFirstLetter === 'É') {
+                    card.labelFirstLetter = 'E';
+                }
 
                 return card;
             });
@@ -633,6 +638,7 @@ var board = {
 
 function Card() {
     this.id = null;
+    this.filtre = undefined;
     this.label = 'No name';
     this.labelFirstLetter = undefined;
     this.title = '';
@@ -646,14 +652,10 @@ function Card() {
 
 Card.prototype.inscribe = function(container) {
     this.domElt.classList.add('card');
+    console.log(this);
     this.domElt.innerHTML = 
-    `<header>
-        <img src="${this.img}" alt="${this.label}">
-        <div class="card-identite">
-            <h3 class="card__label">${this.label}</h3>
-        </div>
-    </header>
-    <h4 class="card__titre">${this.title}</h4>`;
+    `<img src="${this.img}" alt="${this.label}" style="background-color: ${chooseColor(this.filtre)}">
+    <h3 class="card__label">${this.label}</h3>`;
 
     container.appendChild(this.domElt);
 
@@ -1006,7 +1008,6 @@ var fiche = {
 
             var listElt = document.createElement('li');
             listElt.textContent = connectedNode.label;
-            console.log(connectedNode);
             listElt.setAttribute('title', connectedNode.link_title);
             this.fields.connexion.appendChild(listElt);
 
@@ -1028,8 +1029,6 @@ var fiche = {
         const nodeMetas = getNodeMetas(graph.selectedNodeId)
         if (nodeMetas === false)  { return ; }
         const nodeConnectedList = findConnectedNodes(graph.selectedNodeId);
-
-        console.log(nodeConnectedList);
 
         // show description bar fields
         this.content.classList.add('visible');
@@ -1413,7 +1412,8 @@ var movement = {
     currentSection: undefined,
     offset: {
         graph: 0,
-        board: window.innerHeight + headerHeight
+        // board: window.innerHeight + headerHeight
+        board: window.innerHeight - 90
     },
 
     /**
